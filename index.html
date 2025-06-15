@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="app.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Cookie' rel='stylesheet'>
+    <title>Cookie Clicker</title>
+</head>
+<body>
+    <section class="cookieContainer">
+        <div class="cookieContainer banner">
+            <h2>Cookies:</h2>
+            <h1 id="counter"></h1>
+            <p>per second: <span id="cps"></span></p>
+        </div>
+        <button id="cookie" class="cookie"></button>
+    </section>
+    <section class="middle">
+        <div class="middle-banner container">
+            <h1 class="webTitle">Cookie Clicker</h1>
+            <button id="statBtn" class="statBtn"></button>
+            <!-- <button>settings</button> -->
+        </div>
+        <div class="upgrade-icons container">
+            <h2>Owned Assets</h2>
+            <ul id="accordion" class="accordion">
+
+            </ul>
+        </div>
+    </section>
+    <section class="right">
+        <div class="store container">
+            <h2 class="right-title">Store</h2>
+            <div class="storeImgC">
+                <img class="storeImage" src="/assets/images/box-moved.png">
+            </div>
+        </div>
+        <div id="upgradesContainer" class="container">
+            <h2 class="right-title">Upgrades</h2>
+            <!--upgrades-->
+        </div>
+    </section>
+</body>
+<dialog class="modal" id="modal">
+    <!-- <h2>Settings</h2>
+    <div class="settings">
+        <p>Select a theme:</p>
+        <li>
+            <input type="radio" name="default" id="default">
+            <label for="default">Default</label>
+        </li>
+        <li>
+            <input type="radio" name="pink" id="pink">
+            <label for="pink">pink</label>
+        </li>
+    </div> -->
+    <h2>Stats</h2>
+    <button id="modalClose" class="modalClose">X</button>
+    <div id="statsContainer"></div>
+</dialog>
+<dialog class="modal" id="errorModal">
+    <h2>Sorry</h2>
+    <button id="errorClose" class="modalClose">X</button>
+    <p></p>
+    <p>You do not have enough cookies to make this purchase</p>
+</dialog>
+</html>

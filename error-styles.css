@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #f8f3ed;
+}
+
+html {
+    background-color: #2d2d2b
+}
+
+.title {
+    font-family: cookie;
+    font-size: 8rem;
+    color: #f8f3ed;
+    align-self: center;
+    text-align: center;
+}
+
+main {
+    background-color: #93877e;
+    background-image: url('/assets/images/error-cookie.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-self: center;
+    position: relative;
+    padding: 2rem;
+    border-radius: 2rem;
+    width: 65vw;
+    height: 60vh;
+}
+
+img{
+    position: relative;
+    top: -3vh;
+    left: 20vw;
+}
+
+h1{
+    justify-self: center;
+    font-size: 3rem;
+
+}
+
+/* p {
+    justify-self: center;
+    align-self: baseline;
+    position: relative;
+    bottom: 1vh;
+} */
+
+.message {
+    position: relative;
+    justify-self: center;
+    top: 49vh;
+    font-size: 1.5rem;
+}
+
+button {
+    background-image: url('/assets/images/home.png');
+    height: 50px;
+    width: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: transparent;
+    border: transparent;
+    border-radius: 10px;
+    position: relative;
+    bottom: 80px;
+    cursor: pointer;
+}
