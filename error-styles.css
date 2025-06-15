@@ -18,7 +18,7 @@ html {
 
 main {
     background-color: #93877e;
-    background-image: url('/assets/images/error-cookie.png');
+    background-image: url('assets/images/error-cookie.png');
     background-repeat: no-repeat;
     background-position: center;
     justify-self: center;
