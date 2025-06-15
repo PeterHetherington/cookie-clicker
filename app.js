@@ -248,16 +248,6 @@ closeModal.addEventListener('click', () => {
 
 // populate modal
 async function createStats() {
-    // decided to keep track of building purchases in state so that a for loop if not being ran every time
-        // let buildingCount = 0;
-        // for (const key in state){
-        //     if (key == "cookieCount" || key == "cps" || key == "lifetimeCount"){
-        //             continue;
-        //     } else{
-        //        buildingCount += state[key];
-        //        console.log(buildingCount);
-        //     }
-        // }
     const cookies = formatter.format(state.cookieCount);
     const allTime = formatter.format(state.lifetimeCount);
     const building = formatter.format(state.buildingCount);
