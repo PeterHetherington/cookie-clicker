@@ -43,7 +43,7 @@ body {
 .cookie {
     width: 249px;
     height: 226px;
-    background-image: url('/assets/images/cookie2.png');
+    background-image: url('../assets/images/cookie2.png');
     background-repeat: no-repeat;
     background-size: 124%;
     background-position: -29px -39px;
@@ -59,7 +59,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-image: url('/assets/images/gate.webp');
+    background-image: url('../assets/images/gate.webp');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -262,7 +262,7 @@ label:hover{
     background-color: transparent;
     border: transparent;
     border-radius: 14px;
-    background-image: url('/assets/images/cog.png');
+    background-image: url('../assets/images/cog.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
