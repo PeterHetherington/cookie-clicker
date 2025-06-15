@@ -43,7 +43,7 @@ body {
 .cookie {
     width: 249px;
     height: 226px;
-    background-image: url(/assets/images/cookie2.png);
+    background-image: url('/assets/images/cookie2.png');
     background-repeat: no-repeat;
     background-size: 124%;
     background-position: -29px -39px;
